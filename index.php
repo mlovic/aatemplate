@@ -1,5 +1,5 @@
 <?php include('header.php') ?>
-		<!-- INTRO DIV --> 
+		<!-- INTRO DIV -->  
 <div class="intro">
 	<div class="grid">
 		<div class="row">
