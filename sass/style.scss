@@ -14,7 +14,7 @@ $dark-grey: #1F1F1F;
 h2{
 	margin-top: 60px;
 	font-size: 72px;
-	color: $blue;
+	color: $light-grey;
 	border-bottom: 4px solid $light-grey;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -25,7 +25,7 @@ h4{
 	margin-top: 30px;
 	padding-bottom: 4px;
 	padding-right: 20px;
-	border-bottom: 2px solid $dark-grey;
+	border-bottom: 2px solid $light-grey;
 	color: $blue;
 	font-size: 42px;
 	text-align: right;
