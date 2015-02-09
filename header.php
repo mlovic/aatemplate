@@ -21,7 +21,7 @@
 		<!-- FONTS -->
 	<link href='http://fonts.googleapis.com/css?family=Kreon:300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -30,7 +30,7 @@
 		<li>Intro</li>
 		<li>Servicios</li>
 		<li>El Equipo</li>
-		<li>Tecnologia</li>
+		<li>Trabajos previos</li>
 		<li>Contacto</li>
 	</ul>
 </div>
