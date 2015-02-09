@@ -21,7 +21,7 @@
 		<!-- FONTS -->
 	<link href='http://fonts.googleapis.com/css?family=Kreon:300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700' rel='stylesheet' type='text/css'>
-
+	<link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
 </head>
 <body>
 

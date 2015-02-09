@@ -134,4 +134,17 @@
 		</h5>
 	</div>
 </div>
+
+
+		<!-- FORM -->
+<div class="form">
+	<div class="grid">
+		<div class="slot-0-1-2">
+			<input type="text" name="" value="" placeholder="Nombre">
+		</div>
+		<div class="slot-3-4-5">
+
+		</div>
+	</div>
+</div>
 <?php include('footer.php') ?>
