@@ -1,5 +1,6 @@
 /* line 14, ../sass/style.scss */
 h2 {
+  margin-top: 60px;
   font-size: 72px;
   color: #005a8f;
   border-bottom: 4px solid #3d3d3d;
@@ -8,7 +9,7 @@ h2 {
   font-family: "Josefin Sans";
 }
 
-/* line 23, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 h4 {
   margin-top: 30px;
   padding-bottom: 4px;
@@ -20,7 +21,7 @@ h4 {
   font-family: "Josefin Sans";
 }
 
-/* line 34, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .arrow-down {
   width: 50px;
   height: 50px;
@@ -28,7 +29,7 @@ h4 {
   border-radius: 1000px;
   background-color: white;
 }
-/* line 41, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .arrow-down h6 {
   width: 100%;
   color: #006eb8;
@@ -36,22 +37,23 @@ h4 {
   text-align: center;
 }
 
-/* line 50, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .header {
   top: 20px;
   right: 40px;
   position: fixed;
+  z-index: 1000;
   color: white;
   text-align: right;
   font-family: "Josefin Sans";
 }
-/* line 58, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 .header li {
   margin-bottom: 5px;
   font-size: 20px;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 .intro {
   width: 100%;
   height: 100vh;
@@ -61,7 +63,7 @@ h4 {
   background-size: 100%;
   background-attachment: fixed;
 }
-/* line 74, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 .intro h1 {
   margin-top: 25%;
   font-size: 102px;
@@ -71,24 +73,23 @@ h4 {
   font-family: "Kreon";
 }
 
-/* line 84, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 .services {
   width: 100%;
-  margin-top: 80px;
   float: left;
 }
-/* line 89, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .services p {
   margin-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  color: #1f1f1f;
+  color: #3d3d3d;
   text-align: justify;
   line-height: 1.2;
   font-family: "Sanchez";
 }
 
-/* line 100, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .about {
   margin-top: 50px;
   width: 100%;
@@ -98,7 +99,7 @@ h4 {
   overflow: hidden;
   background-color: black;
 }
-/* line 109, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 .about .person {
   width: 50%;
   height: 100%;
@@ -106,90 +107,135 @@ h4 {
   z-index: 1;
   transition: .4s ease;
 }
-/* line 116, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .about .person img {
   position: absolute;
   height: 100%;
 }
-/* line 121, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 .about .person h3 {
   font-size: 36px;
   position: absolute;
   font-family: "Josefin Sans";
 }
-/* line 127, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .about .person h5 {
   font-size: 24px;
   position: absolute;
   font-style: italic;
   font-family: "Kreon";
 }
-/* line 135, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .about .person:first-child {
   float: left;
   background-color: #f0f1f5;
 }
-/* line 139, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .about .person:first-child img {
   left: -27%;
 }
-/* line 143, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .about .person:first-child h3 {
   top: 15%;
   right: 20%;
   color: #1f1f1f;
 }
-/* line 149, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .about .person:first-child h5 {
   top: 25%;
   right: 30%;
   color: #3d3d3d;
 }
-/* line 156, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 .about .person:nth-child(2) {
   float: right;
 }
-/* line 159, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 .about .person:nth-child(2) img {
   right: -25%;
 }
-/* line 163, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 .about .person:nth-child(2) h3 {
   top: 15%;
   left: 20%;
   color: white;
 }
-/* line 169, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
 .about .person:nth-child(2) h5 {
   top: 25%;
   left: 30%;
   color: #f0f1f5;
 }
-/* line 176, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .about .person:hover {
   z-index: 5;
   width: 75%;
   transition: .4s ease;
 }
 
-/* line 183, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 .form {
   width: 100%;
   height: 600px;
   float: left;
   background-color: #ebebeb;
 }
-/* line 189, ../sass/style.scss */
-.form input {
+/* line 190, ../sass/style.scss */
+.form input[type="text"] {
   width: 100%;
+  margin-top: 50px;
   border: 0;
+  border-bottom: 2px solid #1f1f1f;
+  color: #3d3d3d;
+  font-size: 24px;
+  font-family: "Sanchez";
+  background-color: inherit;
+}
+/* line 201, ../sass/style.scss */
+.form textarea {
+  width: 100%;
+  height: 292px;
+  margin-top: 50px;
+  border: 0;
+  border-bottom: 2px solid #1f1f1f;
+  color: #3d3d3d;
+  font-size: 24px;
+  font-family: "Sanchez";
   background-color: inherit;
 }
 
-/* line 196, ../sass/style.scss */
+/* line 214, ../sass/style.scss */
 .footer {
   width: 100%;
   height: 300px;
   float: left;
   background-color: #1f1f1f;
+}
+/* line 220, ../sass/style.scss */
+.footer h4 {
+  border-color: #f0f1f5;
+  color: #f0f1f5;
+  text-align: left;
+}
+/* line 226, ../sass/style.scss */
+.footer p {
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #f0f1f5;
+  font-size: 22px;
+  text-align: center;
+  font-family: "Kreon";
+  font-style: italic;
+}
+/* line 237, ../sass/style.scss */
+.footer ul {
+  color: #f0f1f5;
+  font-size: 22px;
+  text-align: center;
+  font-family: "Kreon";
+}
+/* line 243, ../sass/style.scss */
+.footer ul li {
+  margin-top: 10px;
 }

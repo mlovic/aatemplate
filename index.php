@@ -139,11 +139,19 @@
 		<!-- FORM -->
 <div class="form">
 	<div class="grid">
+		<div class="row">
+			<h2>
+				Contactanos
+			</h2>
+		</div>
 		<div class="slot-0-1-2">
 			<input type="text" name="" value="" placeholder="Nombre">
+			<input type="text" name="" value="" placeholder="Empresa">
+			<input type="text" name="" value="" placeholder="E-mail">
+			<input type="text" name="" value="" placeholder="Asunto">
 		</div>
 		<div class="slot-3-4-5">
-
+		<textarea name="" placeholder="Escribe tu mensaje despues de la senial..."></textarea>
 		</div>
 	</div>
 </div>
