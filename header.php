@@ -3,7 +3,7 @@
 <head>
 
 		<!-- META -->
-	<title></title>
+	<title>Estudio 206</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="author" content="">
@@ -19,6 +19,19 @@
 	<link rel="stylesheet" href="./css/style.css">
 
 		<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Kreon:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
+
+<div class="header">
+	<ul>
+		<li>Intro</li>
+		<li>Servicios</li>
+		<li>El Equipo</li>
+		<li>Tecnologia</li>
+		<li>Contacto</li>
+	</ul>
+</div>
 

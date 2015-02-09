@@ -1,1 +1,163 @@
-{\rtf1}
+/* line 11, ../sass/style.scss */
+h2 {
+  font-size: 72px;
+  color: #3d3d3d;
+  border-bottom: 4px solid #3d3d3d;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Josefin Sans";
+}
+
+/* line 20, ../sass/style.scss */
+h4 {
+  margin-top: 30px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #1f1f1f;
+  color: #1f1f1f;
+  font-size: 42px;
+  text-align: right;
+  font-family: "Josefin Sans";
+}
+
+/* line 30, ../sass/style.scss */
+.arrow-down {
+  width: 50px;
+  height: 50px;
+  margin: 25% auto;
+  border-radius: 1000px;
+  background-color: white;
+}
+/* line 37, ../sass/style.scss */
+.arrow-down h6 {
+  width: 100%;
+  color: #006eb8;
+  font-size: 42px;
+  text-align: center;
+}
+
+/* line 46, ../sass/style.scss */
+.header {
+  top: 20px;
+  right: 40px;
+  position: fixed;
+  color: white;
+  text-align: right;
+  font-family: "Josefin Sans";
+}
+/* line 54, ../sass/style.scss */
+.header li {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+/* line 61, ../sass/style.scss */
+.intro {
+  width: 100%;
+  height: 100vh;
+  float: left;
+  color: white;
+  background-image: url("../rsc/ny2.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+/* line 70, ../sass/style.scss */
+.intro h1 {
+  margin-top: 33%;
+  font-size: 102px;
+  letter-spacing: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Kreon";
+}
+
+/* line 80, ../sass/style.scss */
+.services {
+  width: 100%;
+  margin-top: 80px;
+  float: left;
+}
+/* line 85, ../sass/style.scss */
+.services p {
+  margin-top: 10px;
+  text-align: justify;
+  line-height: 1.2;
+  font-family: "Kreon";
+}
+
+/* line 93, ../sass/style.scss */
+.about {
+  margin-top: 50px;
+  width: 100%;
+  height: 700px;
+  float: left;
+  overflow-x: hidden;
+  background-color: black;
+}
+/* line 101, ../sass/style.scss */
+.about .person {
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: relative;
+  transition: .4s ease;
+}
+/* line 108, ../sass/style.scss */
+.about .person img {
+  position: absolute;
+  height: 100%;
+}
+/* line 113, ../sass/style.scss */
+.about .person h3 {
+  font-size: 36px;
+  position: absolute;
+  font-family: "Josefin Sans";
+}
+/* line 119, ../sass/style.scss */
+.about .person h5 {
+  font-size: 24px;
+  position: absolute;
+  font-style: italic;
+  font-family: "Kreon";
+}
+/* line 127, ../sass/style.scss */
+.about .person:first-child {
+  background-color: #f4f4f4;
+}
+/* line 130, ../sass/style.scss */
+.about .person:first-child img {
+  left: -27%;
+}
+/* line 134, ../sass/style.scss */
+.about .person:first-child h3 {
+  top: 15%;
+  right: 20%;
+  color: #1f1f1f;
+}
+/* line 140, ../sass/style.scss */
+.about .person:first-child h5 {
+  top: 25%;
+  right: 30%;
+  color: #3d3d3d;
+}
+/* line 147, ../sass/style.scss */
+.about .person:nth-child(2) {
+  right: -25%;
+}
+/* line 150, ../sass/style.scss */
+.about .person:nth-child(2) h3 {
+  top: 15%;
+  left: -30%;
+  color: white;
+}
+/* line 156, ../sass/style.scss */
+.about .person:nth-child(2) h5 {
+  top: 25%;
+  left: -15%;
+  color: #f4f4f4;
+}
+/* line 163, ../sass/style.scss */
+.about .person:hover {
+  z-index: 4;
+  width: 75%;
+  transition: .4s ease;
+}
