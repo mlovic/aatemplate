@@ -47,3 +47,6 @@ css/*.css
 css/*.css.map
 .sass-cache/a8b22dca77b97b2921e46e20519646c8bfd968ee/
 
+# Marko's no-php hack
+index.html
+rm-php.sh
