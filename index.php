@@ -7,6 +7,9 @@
 			<h1>
 				Estudio 206
 			</h1>
+			<h3>
+				2 Personas, 0 Euros, 6 millones de ideas.
+			</h3>
 		</div>
 		<div class="row">
 			<div class="arrow-down">
@@ -148,9 +151,9 @@
 			<input type="text" name="" value="" placeholder="Nombre">
 			<input type="text" name="" value="" placeholder="Empresa">
 			<input type="text" name="" value="" placeholder="E-mail">
-			<input type="text" name="" value="" placeholder="Asunto">
 		</div>
 		<div class="slot-3-4-5">
+		<input type="text" name="" value="" placeholder="Asunto">
 		<textarea name="" placeholder="Escribe tu mensaje despues de la senial..."></textarea>
 		</div>
 	</div>
