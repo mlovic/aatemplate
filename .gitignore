@@ -50,3 +50,4 @@ css/*.css.map
 # Marko's no-php hack
 index.html
 rm-php.sh
+run_php.rb
